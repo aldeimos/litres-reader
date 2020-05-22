@@ -1,0 +1,212 @@
+@media screen and (max-width:1040px) {
+}
+.pda .menu-fullscreen {display: none;}
+.pda .menu-help {display: none;}
+
+.pda [class^="icon-"]:before, [class*=" icon-"]:before {
+  vertical-align: bottom
+}
+
+@media screen and (max-width:1024px) {
+  #column-amount { display:none; }
+}
+
+.pda .top-box {top: 0;transition: top .5s;}
+.pda .header {padding-left: 0;padding-right: 0;}
+.pda .title-text-block {width:200%;}
+.pda .buy-box {
+  display:block;
+  order: 0; 
+  -webkit-order: 0;
+  -ms-flex-order: 0;  
+  margin-left: 0px;}
+.pda .burger { position: absolute;
+  order: 5;
+  -webkit-order: 5;
+  -ms-flex-order: 5;    
+  display: inline-block;
+  right: 12px;}
+.pda .back-to-book {
+  order: 10;
+  -webkit-order: 10;
+  -ms-flex-order: 10;      
+  margin-left: 12px;}
+.pda .author-box {
+  order:10;
+  -webkit-order: 10;
+  -ms-flex-order: 10;        
+}
+.pda .top-button-panel {
+  order:15;
+  -webkit-order: 15;
+  -ms-flex-order: 15;        
+  margin-right: 12px;}
+.pda .top-menu li {
+  padding-left: 12px;
+}
+
+.pda .finish-substrate { width: 100%;height: 80%;border-radius: 3px 3px 0 0;top:20%;min-width: 0px; }
+.pda .finish-buy-button a {width: 90%;height:40px;padding-top: 0;min-width: 0px;}
+.pda .finish-buy-button {width: 100%;min-width: 0px;}
+.pda .finish-substrate {min-width: inherit;}
+.pda .finish-title {width:90%;}
+.pda .finish-icon-close {display: none;}
+
+.pda #footer {margin-top: -20px; transition: margin-top .5s;}
+.not-pda #footer {margin-top: -20px}
+
+.pda #footer .footer-info {
+  padding-bottom: 8px;
+}
+
+@media (max-width: 659px) {
+  .pda #footer {
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-top: -65px;
+  }
+
+  .pda #footer .author-box {
+    max-width: 60%;
+    order: 1;
+  }
+
+  .pda #footer .footer-info {
+    order: 2;
+  }
+
+  .pda #footer #footer-progressbar {
+    order: 3;
+  }
+}
+
+.pda .content-box {bottom: 0px;}
+
+
+.pda .wrapper { overflow:hidden;height:100%; }
+.pda #column-amount { display:none; }
+.pda .top-menu {width: 180px; white-space: nowrap;}
+.pda .top-button-panel {
+  width: 188px;
+  flex-basis: 188px;
+  -webkit-flex-basis: 188px;
+}
+
+/*.pda .back-to-book {display: none;}*/
+.pda .buy-box-fragment {display: none !important;}
+
+/*.pda .logo { background:url('../images/mobile/logo.png') no-repeat;
+  background-image:url('../images/mobile/logo.svg'), none;
+  -webkit-background-size:78px 18px; -moz-background-size:78px 18px;
+  -o-background-size:78px 18px; background-size:78px 18px;
+  width:78px; height:18px; margin-top:11px; }*/
+/*.pda.night_top .logo { background:url('../images/mobile/logo_night.png') no-repeat;
+  background-image:url('../images/mobile/logo_night.svg'), none; }
+.pda .header { height:40px; padding:0 13px !important; }*/
+
+.pda .top-box { z-index:5; }
+
+/*.pda .top-menu { padding-top:5px; margin-right:0; }
+.pda .top-menu li { padding:0 0 0 8px; }
+.pda .top-menu li span i { margin-left:4px; margin-top:-3px; }*/
+
+/*.pda .top-menu li span { width:30px; height:30px; -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box; box-sizing:border-box; border:1px solid rgba(76, 76, 76, 0.8); }
+.pda .top-menu li.active span { border-color:#4c4c4c; }*/
+  /*.top-menu li:hover span { border-color:#ff4d15; }*/
+
+.pda.night_top .top-menu li span { border-color:#fff; }
+
+/*.pda .top-menu li:nth-child(n+6) { display:none; }*/
+
+.pda .tip-img { width:282px; height:377px; background-image:url('../images/mobile/help-window.png'); }
+
+.pda .buy-box p { padding:6px 10px; }
+.pda #buy-book { margin-left:12px; min-width:104px; }
+
+.pda .contents { width:100%; overflow:auto; }
+.pda .overlay-title { display:none; }
+.pda .contents li { border-bottom:1px dashed #e2e2e2; padding:10px 20px 12px; }
+.pda .contents li:last-child { border-bottom: 0 none; }
+.pda .contents li a:hover, .pda .contents li a:hover span { color:#444; }
+.pda .contents li:active { background:transparent; }
+.pda .contents li.deep3 { padding-left:35px; }
+.pda .contents li.deep4 { padding-left:50px; }
+.pda .contents li.deep5 { padding-left:65px; }
+.pda .contents li.deep6 { padding-left:80px; }
+.pda .contents li.deep7 { padding-left:95px; }
+
+.pda .bookmarks { width:320px; overflow:auto; }
+.pda .bookmarks-list { width:320px; }
+.pda .bookmarks .comment-box { width:289px; }
+.pda .bookmark-buttons .comment-bookmark + .share-bookmark { width:196px; }
+.pda .comment-button { width:141px; }
+
+
+.pda #settings { width:100%; height:auto; right:0 !important; top:0; border:0; overflow:auto;
+    -webkit-border-radius:0; -moz-border-radius:0; border-radius:0; position:absolute; z-index:4; }
+.pda #settings:before { display:none; }
+.pda .settings_list { max-width: 380px !important; padding:0 18px 0; overflow:auto;
+  -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+.pda .settings_list > li { padding-right:0; }
+.pda .settings_list > li:first-child { border-top:0; }
+.pda .settings-block { padding:14px 0 17px; }
+
+.pda .block-caption { width:42px; }
+.pda .block-caption + .block-data { margin-left:62px; }
+
+.pda .font-row, .pda .font-current-row { font-size:28px; }
+.pda .font-current-row.font4 { font-size:24px; }
+
+.pda .checkbox-block label:hover { color:#444; }
+
+.pda #enable-click { display:none; }
+
+/*.pda .pager-box { text-align:center; }
+.pda .author-box { display:none; }
+.pda .footer-info { display:none; }*/
+.pda .footer-info {padding-bottom: 0px;}
+
+.pda #mask { background:rgba(0, 0, 0, 0.8) !important; }
+
+.pda #footer .progressbar .dot { display:none; }
+.pda #footer .progressbar .track, .pda #footer .progressbar .progress { height:4px; }
+.progressbar .track-full { height:4px; background: url('data:image/svg+xml;utf8,%3Csvg%20width%3D%228px%22%20height%3D%224px%22%20viewBox%3D%220%200%208%204%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%20%3Ctitle%3ESlash2%3C%2Ftitle%3E%20%3Cdesc%3ECreated%20with%20Sketch.%3C%2Fdesc%3E%20%3Cdefs%3E%3C%2Fdefs%3E%20%3Cg%20id%3D%22Symbols%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%20%3Cg%20id%3D%22Slash2%22%20fill%3D%22%23C4C4C6%22%3E%20%3Cpolygon%20id%3D%22Rectangle-Copy-46%22%20transform%3D%22translate%281.500000%2C%202.000000%29%20rotate%28-360.000000%29%20translate%28-1.500000%2C%20-2.000000%29%20%22%20points%3D%222.00374926%20-1.77635684e-15%203%20-1.77635684e-15%200.996250737%204%200%204%22%3E%3C%2Fpolygon%3E%20%3Cpolygon%20id%3D%22Rectangle-Copy-47%22%20transform%3D%22translate%285.500000%2C%202.000000%29%20rotate%28-360.000000%29%20translate%28-5.500000%2C%20-2.000000%29%20%22%20points%3D%226.00374926%20-1.77635684e-15%207%20-1.77635684e-15%204.99625074%204%204%204%22%3E%3C%2Fpolygon%3E%20%3C%2Fg%3E%20%3C%2Fg%3E%3C%2Fsvg%3E') repeat-x; }
+
+
+.pda .mask {
+  position: absolute;
+  height: 100%;
+}
+
+/* if pda top absolute and can be hidden */
+.pda-top-absolute .header { position:absolute; z-index:6; }
+.pda-top-hidden .LWindow, .pda-top-hidden .settings { top:40px; }
+
+.pda #close-settings { border-top:0 none; }
+.pda .settings-close { width:286px; height:46px; margin:0 auto 20px; background:#f1efea;
+  text-align:center; font:14px/42px 'Arial'; border:1px solid #f1efea; }
+.pda .fullSettings .settings-close { display:block; }
+
+.pda .font-row:hover, .pda .font-current-row:hover { color:#b5b6b7; }
+
+.pda .facebook { top:40px; width:285px; }
+.pda .facebook-title { font:13px/34px 'Arial'; }
+.pda .facebook textarea { border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px;
+  font:13px/19px 'PT Sans', 'Arial'; }
+.pda .quote-limit { font:11px/19px 'PT Sans', 'Arial'; }
+.pda .share-book-data { padding-bottom:49px; }
+.pda .share-book-title {  font:14px/26px 'Arial'; }
+.pda .share-book-author { font:10px/16px 'Arial'; }
+.pda .share-url { font:10px/11px 'Arial'; bottom:47px; }
+.pda .share-buttons button { width:118px; }
+
+.pda .readerStyles .tag_epigraph { display:inline-block; padding:1em 0; font-size:90%;
+  width:auto; margin-left:3em; }
+
+/* night_theme */
+.pda.night_theme .settings-close { background:#626065; border-color:#3b393f; }
+.pda.night_theme .checkbox-block label:hover { color:#fff; }
+
+.pda .bottom-arrows a:active { opacity:1; }

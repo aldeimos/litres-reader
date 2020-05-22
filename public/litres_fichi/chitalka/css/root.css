@@ -1,0 +1,18 @@
+.root-box{font-family:Arial;}
+.root-box:after{content:""; clear:both; display:none;}
+
+.root-box .rb-left{float:left; width:50%; position:relative; background:#000; text-align:center; position:relative;}
+.root-box .rb-left > span{display:inline-block; vertical-align:middle; height:100%;}
+.root-box .rb-left .cover img{vertical-align:middle; margin:35px; width:100%; max-width:570px;}
+
+.root-box .rb-right{float:left; width:50%; text-align:center; position:relative;}
+.root-box .rb-right > span{display:inline-block; vertical-align:middle; height:100%;}
+
+
+.root-box .book-author{font-size:26px; line-height:35px; vertical-align:top; position:absolute; top:35px; left:0px; width:100%; padding:0 35px; box-sizing:border-box;}
+.root-box .book-name{font-size:36px; line-height:50px; font-weight:bold; display:inline-block; white-space:pre-line;}
+.root-box .book-info{font-size:14px; line-height:22px; vertical-align:bottom; position:absolute; bottom:35px; left:0px; width:100%; padding:0 35px; box-sizing:border-box;}
+.root-box .book-info strong{font-weight:bold;}
+
+/* js height, current temp */
+.root-box .rb-left, .root-box .rb-right{height:1000px;}

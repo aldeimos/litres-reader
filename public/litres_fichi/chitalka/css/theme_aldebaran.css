@@ -1,0 +1,175 @@
+/* aldebaran theme */
+.aldebaran_theme .logo { float:left; display:block; width:163px; height:18px; margin-top:7px;width:96px; -webkit-background-size:96px 14px; -moz-background-size:96px 14px;
+  -o-background-size:96px 14px; background-size:96px 14px;
+  background:url('../images/theme/aldebaran/logo.png') left bottom no-repeat;}
+
+.aldebaran_theme .header{ background:#17100a url('../images/theme/aldebaran/header.jpg') right top no-repeat;height: 34px; padding-left: 12px; padding-right: 12px;}
+.aldebaran_theme.pda #author{display:none;}
+.aldebaran_theme.pda #partnerLine{bottom:20px;}
+.aldebaran_theme.pda .logo{margin-top:-3px;}
+.aldebaran_theme.pda .menu-help{display:none;}
+
+.aldebaran_theme .top-menu { float:right; height:34px; margin-right:-9px;width: initial; }
+.aldebaran_theme .top-menu li { display:inline-block; margin:0 14px; height:34px; cursor:pointer; }
+.aldebaran_theme .top-menu span { display:inline-block; font:12px/34px 'Arial'; height:34px; overflow:hidden; letter-spacing:0.2px;}
+/* aldebaran top menu always night themed */
+.aldebaran_theme .top-menu i { background-images:url('../images/theme/aldebaran/top-menu.png');
+  background-image:url('../images/theme/aldebaran/top-menu.svg'), none;padding-right:6px; display:inline-block; width:20px; height:34px; vertical-align:top;
+  -webkit-background-size:306px 204px; -moz-background-size:306px 204px;
+  -o-background-size:306px 204px; background-size:306px 204px;}
+
+.aldebaran_theme .top-menu span b { color:#fff; }
+.aldebaran_theme .top-menu li:hover span b { color:#ff1a74 !important; }
+
+.aldebaran_theme .top-menu li span.menu-toc i { background-position:-8px -170px; }
+.aldebaran_theme .top-menu li span.menu-settings i { background-position:-41px -171px; }
+.aldebaran_theme .top-menu li span.menu-bookmark i { background-position:-144px -171px; }
+.aldebaran_theme .top-menu li span.menu-search i { background-position:-178px -170px; }
+.aldebaran_theme .top-menu li span.menu-help i { background-position:-211px -170px; }
+.aldebaran_theme .top-menu li span.menu-normalscreen i { background-position:-246px -170px; }
+.aldebaran_theme .top-menu li span.menu-fullscreen i { background-position:-280px -170px; }
+
+@media screen and (min-width:500px)  {
+  .aldebaran_theme .top-menu li.active span.menu-toc i { background-position:-8px -136px; }
+  .aldebaran_theme .top-menu li.active span.menu-settings i { background-position:-41px -137px; }
+  .aldebaran_theme .top-menu li.active span.menu-bookmark i { background-position:-144px -137px; }
+  .aldebaran_theme .top-menu li.active span.menu-search i { background-position:-178px -136px; }
+  .aldebaran_theme .top-menu li.active span.menu-help i { background-position:-211px -136px; }
+  .aldebaran_theme .top-menu li.active span.menu-normalscreen i { background-position:-246px -136px; }
+  .aldebaran_theme .top-menu li.active span.menu-fullscreen i { background-position:-280px -136px; }
+}
+
+@media screen and (max-width:1040px) {
+  .aldebaran_theme .top-menu span b { display:none; }
+  .aldebaran_theme .top-menu li { margin:0; padding:0 9px; }
+  .aldebaran_theme .top-menu i { vertical-align:initial; padding-right:0px; }
+  .aldebaran_theme .buy-box p span { display:none; }
+  .aldebaran_theme .buy-box button { margin-left:15px; }
+}
+
+.aldebaran_theme .settings .icon {
+  background-image:url('../images/theme/aldebaran/settings/sprite-icons.png');
+  background-image:url('../images/theme/aldebaran/settings/sprite-icons.svg'), none; }
+.aldebaran_theme .checkbox-block label:before {
+  background-image:url('../images/theme/aldebaran/settings/sprite-icons.png');
+  background-image:url('../images/theme/aldebaran/settings/sprite-icons.svg'), none; }
+
+.aldebaran_theme .progressbar .progress { background:#ff1a74; }
+.aldebaran_theme .progressbar .dot { background:#ff1a74; }
+.aldebaran_theme .progress-box .progressbar .dot { background:#fff; }
+.aldebaran_theme .progress-box .progressbar .progress { background:#ff1a74; }
+.aldebaran_theme .progress-box .progressbar .dot:hover { background:#ff1a74; }
+.aldebaran_theme .progressbar .track span.active { border-color:#ff1a74; }
+
+.aldebaran_theme .share-buttons button:hover { color:#ff1a74; }
+
+.aldebaran_theme .contents li a:hover,
+.aldebaran_theme .contents li a:hover span { color:#ff1a74; }
+
+.aldebaran_theme .sharebookmark-list li:hover { color:#ff1a74; }
+
+.aldebaran_theme .bookmark-text a:hover { color:#ff1a74; }
+.aldebaran_theme .bookmark-menu button:hover { color:#ff1a74; }
+.aldebaran_theme .bookmark-buttons a:hover,
+.aldebaran_theme .comment-buttons a:hover { color:#ff1a74; }
+
+.aldebaran_theme .action-icon {
+  background-image:url('../images/theme/aldebaran/bookmarks-sprite.png');
+  background-image:url('../images/theme/aldebaran/bookmarks-sprite.svg'), none; }
+.aldebaran_theme.night_theme .action-icon {
+  background-image:url('../images/theme/aldebaran/night/bookmarks-sprite.png');
+  background-image:url('../images/theme/aldebaran/night/bookmarks-sprite.svg'), none; }
+
+.aldebaran_theme .icon-type { background:url('../images/theme/aldebaran/icon-bookmark.png') no-repeat;
+  background-image: url('../images/theme/aldebaran/icon-bookmark.svg'), none; }
+.aldebaran_theme.night_theme .icon-type { background:url('../images/theme/aldebaran/night/icon-bookmark.png') no-repeat;
+  background-image: url('../images/theme/aldebaran/night/icon-bookmark.svg'), none; }
+
+.aldebaran_theme .font-row:hover,
+.aldebaran_theme .font-current-row:hover { color:#ff1a74; }
+
+.aldebaran_theme .checkbox-block label:hover { color:#ff1a74; }
+
+.aldebaran_theme .more-button:hover { color:#ff1a74; }
+
+.aldebaran_theme.night_theme .overlay button:hover { color:#ff1a74; }
+
+
+.aldebaran_theme .buy-box button { -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+.aldebaran_theme .buy-box {width:100%; background:#ff1a74; margin-left:0; position:relative; z-index:5; display:none; }
+.aldebaran_theme .buy-box p { font:15px/29px 'Arial'; font-style:italic; color:#fff; padding:6px 60px; }
+.aldebaran_theme .buy-box p b { font-weight:bold; }
+.aldebaran_theme .buy-box p span { margin-left:4px; }
+.aldebaran_theme .buy-box a { border:0; outline:0; padding:0; margin:0; cursor:pointer; background:transparent; }
+.aldebaran_theme #buy-book { color:#ff1a74; }
+#footer
+
+.aldebaran_theme #add-bookmark { display:block; width:46px; height:102px;
+  background:url('../images/button-bookmark.png') left top no-repeat;
+  opacity:0.3; position:absolute; left:65px; bottom:-32px; z-index:4; }
+.aldebaran_theme #add-bookmark.hover { opacity:1; bottom:-92px; }
+.aldebaran_theme #add-bookmark.clicked { opacity:1;/*opacity:0.3;*/ background-position:right top; }
+
+.aldebaran_theme #add-bookmark { background-image:url('../images/theme/aldebaran/button-bookmark.png'); }
+
+.aldebaran_theme #buy-book { font:15px/26px 'Arial'; font-weight:bold; background:#fff; display:inline-block;
+  min-width:114px; height:26px; text-align:center; margin-left:30px; border-radius:2px; text-decoration:none;
+  -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; padding:0 10px;
+  border:1px solid #fff; }
+#buy-book:hover { border:1px solid #000; color:#000; }
+
+.aldebaran_theme #enable-click { display:none; }
+
+/* pda stuff */
+.pda .logo { width:96px; height:40px; margin-top:0; -webkit-background-size:96px 14px; -moz-background-size:96px 14px;
+  -o-background-size:96px 14px; background-size:96px 14px;
+  background:url('../images/theme/aldebaran/logo.png') left 15px no-repeat; }
+.pda.night_top .logo { background:url('../images/theme/aldebaran/logo.png') left 15px no-repeat; }
+
+.aldebaran_theme .author-box {
+  line-height: initial;
+  height: initial;
+  float: left;
+}
+
+/* pda menu */
+.pda .top-menu li span { border-color:#fff; }
+.pda .top-menu li.active span { border-color:#ff1a74; }
+
+.aldebaran_theme.pda .top-menu li.active span.menu-toc i { background-position:-8px -34px !important; }
+.aldebaran_theme.pda .top-menu li.active span.menu-settings i { background-position:-41px -35px !important; }
+.aldebaran_theme.pda .top-menu li.active span.menu-bookmark i { background-position:-144px -35px !important; }
+.aldebaran_theme.pda .top-menu li.active span.menu-search i { background-position:-178px -34px !important; }
+.aldebaran_theme.pda .top-menu li.active span.menu-help i { background-position:-211px -34px !important; }
+.aldebaran_theme.pda .top-menu li.active span.menu-normalscreen i { background-position:-246px -34px !important; }
+.aldebaran_theme.pda .top-menu li.active span.menu-fullscreen i { background-position:-280px -34px !important; }
+
+.aldebaran_theme.pda .top-menu span b { display:none; }
+.aldebaran_theme.pda .top-menu li { margin:0; padding:0 9px; }
+.aldebaran_theme.pda .top-menu i { vertical-align:initial; padding-right:0px; }
+.aldebaran_theme.pda .buy-box p span { display:none; }
+.aldebaran_theme.pda .buy-box button { margin-left:15px; }
+
+/* reader stuff */
+.aldebaran_theme p.my_selec_1_default,
+.aldebaran_theme div.my_selec_1_default,
+.aldebaran_theme img.my_selec_1_default,
+.aldebaran_theme em.my_selec_1_default,
+.aldebaran_theme .tag_title.my_selec_1_default,
+.aldebaran_theme .tag_subtitle.my_selec_1_default { border-left:3px solid #ff1a74; }
+.pda .top-menu li.active span.menu-fullscreen i { background-position:-280px -34px !important; }
+
+.aldebaran_theme .bottom-arrows a { opacity:1; }
+.aldebaran_theme.night_theme .bottom-arrows a span {
+  background-image:url('../images/nav-arrows-white.png');
+  background-image:url('../images/nav-arrows-white.svg'), none;
+}
+
+.aldebaran_theme .bottom-arrows a:hover span {
+  background-image:url('../images/nav-arrows-pink.png');
+  background-image:url('../images/nav-arrows-pink.svg'), none;
+}
+
+.aldebaran_theme .partners-line .partners-buy a{background:#ff1a74;}
+.aldebaran_theme .partners-line .partners-buy a:hover{background:#fd4a91;}
+

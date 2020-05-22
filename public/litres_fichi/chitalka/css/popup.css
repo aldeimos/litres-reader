@@ -1,0 +1,7 @@
+.content-box .popup {
+    position: fixed;
+    display: none;
+    max-width: 300px;
+    padding: 1em;
+    z-index: 4;
+}

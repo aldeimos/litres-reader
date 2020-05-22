@@ -1,0 +1,121 @@
+.settings { top:7px; right:22px; max-width:380px; z-index:4; color:#444; font:15px/22px 'Arial';
+   border:1px solid #c0c0c0; font-size:14px; line-height:18px; }
+.settings:before { left:auto; margin-left:0; right:201px; } /* arrow position */
+
+.settings .setting-row,
+.color-pick li { -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+.setting-row:after { content:""; display:table; clear:both; }
+
+.block-caption { float:left; width:97px; font-size:11px; line-height:14px; }
+.block-data {}
+.block-caption + .block-data { margin-left:97px; }
+
+.not-pda .settings_list { padding-top:15px; overflow:hidden; width:380px !important; }
+.settings_list > li { border-top:1px solid #f2f2f2; padding-right:32px; }
+.settings-block { text-align:center; padding:14px 0 17px; display:block; }
+
+.single-progress { padding:20px 0 0; }
+
+.settings .icon { background:url('../images/settings/sprite-icons.png');
+  background-image:url('../images/settings/sprite-icons.svg'), none;
+  -webkit-background-size:206px 39px; -moz-background-size:206px 39px;
+  -o-background-size:206px 39px; background-size:206px 39px; }
+.settings .icon-text { display:block; padding-top:3px; }
+.settings .icon { display:block; line-height:1; margin:0 auto; }
+.settings .icon-light { background-position:0 0; width:14px; height:19px; }
+.settings .icon-font { background-position:-15px 0; width:28px; height:16px; }
+.settings .icon-font-size { background-position:-44px 0; width:25px; height:16px; }
+.settings .icon-settings { background-position:-70px 0; width:11px; height:13px; margin-right:6px;
+  display: inline-block; }
+.settings .icon-top, .settings .icon-bottom { width:13px; height:10px; }
+.settings .icon-bottom { background-position:-146px bottom; }
+.settings .icon-top { background-position:-132px bottom; }
+.settings .icon-fields { background-position:-82px 0; width:16px; height:19px; }
+.settings .icon-leading { background-position:-99px 0; width:16px; height:19px; }
+.settings .icon-font-color { background-position:-184px 0; width:22px; height:19px; }
+.settings .icon-bg-color { background-position:-160px 0; width:23px; height:16px; }
+
+.font-changer { color:#b5b6b7; padding-top:13px; }
+.font-list { display:none; }
+#font-changer .block-data { padding:0 0 8px; }
+.font-row, .font-current-row { width:100%; font-size:30px; line-height:51px; cursor:pointer; }
+.font-current-row { display:block !important; position:relative; }
+.font-current-row .icon { position:absolute; right:0; top:23px; }
+.font-row { display:block; }
+.font-row:hover, .font-current-row:hover { color:#ff4d15; }
+.font-row.current { display:none !important; }
+.font-current-row.font4 { font-size:26px; }
+
+.checkbox-block { text-align:left; padding-left:32px; }
+.checkbox-block label:before { background:url('../images/settings/sprite-icons.png');
+  background-image:url('../images/settings/sprite-icons.svg'), none;
+  -webkit-background-size:206px 39px; -moz-background-size:206px 39px;
+  -o-background-size:206px 39px; background-size:206px 39px; }
+.checkbox-block label { padding:11px 20px 11px 0; display:block; cursor:pointer; position:relative; }
+.checkbox-block label:before { right:0; content:""; display:inline-block; width:15px; height:12px;
+  background-position:-116px bottom; position:absolute; top:50%; margin-top:-6px; }
+.checkbox-block label:hover { color:#ff501a; }
+.checkbox-block input[type="checkbox"] { position:absolute; left:-9999px; }
+.checkbox-block input[type="checkbox"]:checked + label:before { background-position:-116px 0; }
+
+.color-box {}
+.color-box:after { content:""; display:table; clear:both; }
+.color-box .block-caption { padding:14px 0 10px; }
+.color-box .block-data { padding:20px 0 0; }
+
+.color-pick { display:block; height:16px; }
+.color-pick:after { content:""; display:table; clear:both; }
+.color-pick li { height:16px; width:12.5%; float:left; display:block; cursor:pointer; font-size:1px; line-height:1px; }
+.color-pick li:hover, .color-pick li.current { height:30px; border:3px solid #fff; margin-top:-7px;
+  -webkit-box-shadow:inset 2px 2px 5px 0px rgba(50, 50, 50, 0.3), 1px 1px 5px 0px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow:inset 2px 2px 5px 0px rgba(50, 50, 50, 0.3), 1px 1px 5px 0px rgba(50, 50, 50, 0.3);
+  box-shadow:inset 2px 2px 5px 0px rgba(50, 50, 50, 0.3), 1px 1px 5px 0px rgba(50, 50, 50, 0.3);
+}
+
+#more-settings { padding-right:0; }
+#more-settings .settings-block { padding:0; }
+.more-button { cursor:pointer; display:block; text-align:center; padding:25px 0 20px; }
+.more-button:hover { color:#ff501a; }
+
+.disabled-row {}
+.disabled-row .icon-text { color:#b5b6b7; }
+.disabled-row .icon-light { background-position:0 -20px; }
+
+.font0 { font-family:'Arial'; }
+.font1 { font-family:'Myriad Pro'; }
+.font2 { font-family:'Verdana'; }
+.font3 { font-family:'Helvetica'; }
+.font4 { font-family:'Times New Roman'; }
+.font5 { font-family:'Minion Pro'; }
+.font6 { font-family:'Georgia'; }
+.font7 { font-family:'PT Sans'; }
+.font8 { font-family:'Calibri'; }
+.font9 { font-family:'Cambria'; }
+
+/* disabled fonts */
+.font1,
+.font3,
+.font5,
+.font7,
+.font8,
+.font10,
+.font11,
+.font9 { display:none; }
+
+/* disabled settings */
+#selection-full,
+#server-sync,
+#font-changer .font-list,
+#color-box { display:none; }
+
+/* hidden settings */
+#line-height,
+#reader-margin,
+#checkboxes-box { display:none; }
+.fullSettings #line-height,
+.fullSettings #reader-margin,
+.fullSettings #checkboxes-box { display:block; }
+
+/* pda settings close */
+.settings-close { display:none; }
+
